@@ -1,0 +1,84 @@
+# Private observations, project state, receipts, image archives and backups
+/data/
+/state/
+/sources/
+/reports/
+/backups/
+/inbox/
+/logs/
+/credentials/
+/private/
+/browser-profile/
+/chrome-profile/
+/user-data/
+/manifest.json
+/TASKS.md
+
+# External runtimes, third-party app shell and build output
+/runtime/
+node_modules/
+/dashboard/dist/
+/dashboard/src/data.json
+/dashboard/src/data-app-*
+/dashboard/src/runtime/
+/dashboard/.data-app*
+/dist/
+/build/
+*.egg-info/
+*.zip
+*.tar
+*.tgz
+*.gz
+*.7z
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Local credentials and settings
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.dpapi
+*credentials*.json
+*cookies*.json
+*cookie*.txt
+*token*.json
+repository-password.txt
+Local State
+Cookies
+Login Data
+Web Data
+
+# Databases, logs and generated test evidence
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.sqlite-*
+*.db
+*.db-*
+*.log
+*.pid
+*.lock
+*.tmp
+/tests/SYNTHETIC_*/
+/tests/*_acceptance.json
+/cua_missing_globals_acceptance.json
+
+# Interpreter, editor and OS caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

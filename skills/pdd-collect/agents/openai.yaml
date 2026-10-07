@@ -1,0 +1,7 @@
+interface:
+  display_name: "店铺采集"
+  short_description: "仅采集你明确指定的店铺商品、主图与SKU，并查询采集进度"
+  default_prompt: "使用 $pdd-collect 采集我指定的店铺。目标未明确时先询问完整店铺名称或编号；明确后执行，不默认使用当前分析店铺。"
+
+policy:
+  allow_implicit_invocation: true

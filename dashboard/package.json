@@ -1,0 +1,6 @@
+{
+  "name": "pdd-competitor-dashboard-content",
+  "private": true,
+  "type": "module",
+  "description": "Authored dashboard content only; external Data App host runtime is not redistributed."
+}
